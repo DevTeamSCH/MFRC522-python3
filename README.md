@@ -7,14 +7,14 @@ This is a Python port of the example code for the NFC module MF522-AN.
 
 Updated by @brettcvz to be a bit more generic, and be importable into other projects
 
-##Installation
+## Installation
 Run the following command:
 ```
 pip install git+https://github.com/DevTeamSCH/MFRC522-python3.git --process-dependency-links
 ```
 Note that the depency link command is required for CHIP support, because the CHIP_IO repo is not on PyPI
 
-##Examples
+## Examples
 This repository includes a couple of examples showing how to read, write, and dump data from a chip. They are thoroughly commented, and should be easy to understand.
 
 ## Pins and setup
@@ -33,5 +33,5 @@ For Rasperry Pi in specific, you can use [this](http://i.imgur.com/y7Fnvhq.png) 
 | RST  | 22    | GPIO25     |
 | 3.3V | 1     | 3V3        |
 
-##Usage
+## Usage
 Import the class by importing MFRC522 in the top of your script. For more info see the examples.
