@@ -10,7 +10,7 @@ Updated by @brettcvz to be a bit more generic, and be importable into other proj
 ##Installation
 Run the following command:
 ```
-pip install git+https://github.com/brettcvz/MFRC522-python.git --process-dependency-links
+pip install git+https://github.com/DevTeamSCH/MFRC522-python.git --process-dependency-links
 ```
 Note that the depency link command is required for CHIP support, because the CHIP_IO repo is not on PyPI
 
